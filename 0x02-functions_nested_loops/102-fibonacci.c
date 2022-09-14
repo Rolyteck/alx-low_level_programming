@@ -5,10 +5,12 @@
  * Return: 0
  */
 int main(void)
+
 {
 	int i, l;
 
 	long n1, n2, next;
+
 	n1 = 1;
 	n2 = 2;
 	l = 50;
