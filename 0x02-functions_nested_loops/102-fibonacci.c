@@ -5,9 +5,9 @@
  * Return: 0
  */
 int main(void)
-
 {
 	int i, l;
+
 	long n1, n2, next;
 	n1 = 1;
 	n2 = 2;
@@ -17,7 +17,7 @@ int main(void)
 		if (i == 49)
 		{
 			printf("%lu", n1);
-		} 
+		}
 		else
 		{
 			printf("%lu, ", n1);
