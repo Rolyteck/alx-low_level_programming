@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point generates a random password
- * Return: the generated password
+ * main - generates a random password
+ * Return: 0
  */
 int main(void)
 {
@@ -18,7 +18,6 @@ int main(void)
 		x += c;
 		putchar(c);
 	}
-
 	putchar(2772 - x);
 	return (0);
 }
