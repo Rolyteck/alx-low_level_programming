@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  * _strcmp - function that compare two string
- *   * @s1: first string
- *    * @s2: second string
- *     * Return: negative int if s1 < s2, 0 if matching or positive int else
- *      */
+ * _strcmp - function that compare two string
+ * @s1: first string
+ * @s2: second string
+ * Return: negative int if s1 < s2, 0 if matching or positive int else
+ */
 int _strcmp(char *s1, char *s2)
 {
 	int i;
